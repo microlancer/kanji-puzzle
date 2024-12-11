@@ -1,0 +1,122 @@
+{
+	"0001": {
+		"type": "base",
+		"is_character": true,
+		"image": "0001-土dirt.png",
+		"character": "土",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "つち・ど",
+		"build": []
+	},
+	"0002": {
+		"type": "base",
+		"is_character": true,
+		"image": "0002-日day.png",
+		"character": "日",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "ひ・にち",
+		"build": []
+	},
+	"0003": {
+		"type": "base",
+		"is_character": true,
+		"image": "0003-寸tsun.png",
+		"character": "日",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "ひ・にち",
+		"build": []
+	},
+	"0004": {
+		"type": "combo",
+		"is_character": true,
+		"image": "0004-国country.png",
+		"character": "国",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "国",
+		"build": ["0012", "0009"]
+	},
+	"0005": {
+		"type": "base",
+		"is_character": true,
+		"image": "0005-門gate.png",
+		"character": "門",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "もん",
+		"build": []
+	},
+	"0006": {
+		"type": "base",
+		"is_character": true,
+		"image": "0006-二two.png",
+		"character": "二",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "に",
+		"build": []
+	},
+	"0007": {
+		"type": "base",
+		"is_character": true,
+		"image": "0007-小small.png",
+		"character": "小",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "しょう・ちい",
+		"build": []
+	},
+	"0008": {
+		"type": "combo",
+		"is_character": true,
+		"image": "0008-時time.png",
+		"character": "時",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "とき・じ",
+		"build": ["0002", "0001", "0003"]
+	},
+	"0009": {
+		"type": "combo",
+		"is_character": true,
+		"image": "0009-玉ball.png",
+		"character": "日",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "たま",
+		"build": ["0011", "0010"]
+	},
+	"0010": {
+		"type": "base",
+		"is_character": false,
+		"image": "0010-drop.png",
+		"character": "日",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "てん",
+		"build": []
+	},
+	"0011": {
+		"type": "base",
+		"is_character": true,
+		"image": "0011-王king.png",
+		"character": "王",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "おう",
+		"build": []
+	},
+	"0012": {
+		"type": "base",
+		"is_character": false,
+		"image": "0012-countrywrap.png",
+		"character": "",
+		"jlpt_level": 5,
+		"game_level": 1,
+		"reading": "くにがまえ",
+		"build": []
+	},
+} 
