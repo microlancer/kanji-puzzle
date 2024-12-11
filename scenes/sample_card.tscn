@@ -1,0 +1,64 @@
+[gd_scene load_steps=5 format=3 uid="uid://bi47fb1ld5gqh"]
+
+[ext_resource type="Texture2D" uid="uid://crxujmc7oy4c3" path="res://assets/base_cards/0007-小small.png" id="1_til1r"]
+[ext_resource type="Texture2D" uid="uid://c31lhe3jiohoi" path="res://assets/base_cards/card-border-blank.png" id="2_by7in"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_bh2hm"]
+font_size = 200
+font_color = Color(0, 0, 0, 1)
+outline_size = 20
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_uvnkd"]
+font_size = 30
+font_color = Color(0, 0, 0, 1)
+outline_size = 10
+
+[node name="SampleBaseCard" type="Node2D"]
+
+[node name="0007-小small" type="Sprite2D" parent="."]
+texture = ExtResource("1_til1r")
+centered = false
+flip_h = true
+
+[node name="Character" type="Label" parent="."]
+offset_right = 300.0
+offset_bottom = 273.0
+text = "小"
+label_settings = SubResource("LabelSettings_bh2hm")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Reading" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 282.0
+offset_right = 302.0
+offset_bottom = 415.0
+text = "こ・しょう"
+label_settings = SubResource("LabelSettings_uvnkd")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Card-border-blank" type="Sprite2D" parent="."]
+position = Vector2(460, 210)
+texture = ExtResource("2_by7in")
+
+[node name="Character2" type="Label" parent="."]
+offset_left = 313.0
+offset_top = 5.0
+offset_right = 613.0
+offset_bottom = 278.0
+text = "小"
+label_settings = SubResource("LabelSettings_bh2hm")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Reading2" type="Label" parent="."]
+offset_left = 315.0
+offset_top = 287.0
+offset_right = 615.0
+offset_bottom = 420.0
+text = "こ・しょう"
+label_settings = SubResource("LabelSettings_uvnkd")
+horizontal_alignment = 1
+vertical_alignment = 1
